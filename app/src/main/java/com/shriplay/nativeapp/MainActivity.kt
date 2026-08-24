@@ -70,7 +70,7 @@ val videos = listOf(
         "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
     )
 )
-
+@OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
